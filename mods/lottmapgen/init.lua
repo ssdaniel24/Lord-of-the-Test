@@ -251,6 +251,22 @@ for length = 1, 5 do
 	})
 end
 
+-- lorien grasses
+for length = 1, 4 do
+	minetest.register_decoration({
+		name = "lottplants:lorien_grass_"..length,
+		deco_type = "simple",
+		place_on = {
+			"lottmapgen:lorien_grass",
+		},
+		sidelen = 16,
+		fill_ratio = 0.03,
+		biomes = { "Lorien", },
+		decoration = "lottplants:lorien_grass_"..length,
+		param2 = 40,
+	})
+end
+
 -- farming plants
 for plant, param2 in pairs({
 	["lottplants:pipeweed_wild"] = 34,

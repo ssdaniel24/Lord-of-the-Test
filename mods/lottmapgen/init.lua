@@ -12,8 +12,8 @@ minetest.register_biome({
 	node_top = "default:snowblock",
 	depth_top = 1,
 	node_water_top = "default:ice",
-	heat_point = 0,
-	humidity_point = 40,
+	heat_point = 10,
+	humidity_point = 10,
 })
 
 minetest.register_decoration({
@@ -46,8 +46,8 @@ minetest.register_biome({
 	node_filler = "default:dirt_with_snow",
 	depth_filler = 1,
 	node_water_top = "default:ice",
-	heat_point = 0,
-	humidity_point = 30,
+	heat_point = 10,
+	humidity_point = 20,
 })
 
 -- Trollshaws
@@ -56,7 +56,7 @@ minetest.register_biome({
 	node_top = "default:dirt_with_snow",
 	depth_top = 1,
 	node_water_top = "default:ice",
-	heat_point = 0,
+	heat_point = 10,
 	humidity_point = 30,
 })
 
@@ -66,8 +66,8 @@ minetest.register_biome({
 	node_top = "lottmapgen:dunland_grass",
 	depth_top = 1,
 	node_stone = "default:desert_stone",
-	heat_point = 60,
-	humidity_point = 50,
+	heat_point = 45,
+	humidity_point = 35,
 })
 
 -- Gondor
@@ -76,8 +76,8 @@ minetest.register_biome({
 	node_top = "lottmapgen:gondor_grass",
 	depth_top = 1,
 	node_stone = "default:sandstone",
-	heat_point = 55,
-	humidity_point = 60,
+	heat_point = 45,
+	humidity_point = 45,
 })
 
 -- Ithilien
@@ -85,8 +85,8 @@ minetest.register_biome({
 	name = "Ithilien",
 	node_top = "lottmapgen:ithilien_grass",
 	depth_top = 1,
-	heat_point = 55,
-	humidity_point = 65,
+	heat_point = 45,
+	humidity_point = 50,
 })
 
 -- Lorien
@@ -94,16 +94,16 @@ minetest.register_biome({
 	name = "Lorien",
 	node_top = "lottmapgen:lorien_grass",
 	depth_top = 1,
-	heat_point = 55,
-	humidity_point = 65,
+	heat_point = 70,
+	humidity_point = 50,
 })
 
 -- Mordor
 minetest.register_biome({
 	name = "Mordor",
 	node_stone = "lottmapgen:mordor_stone",
-	heat_point = 60,
-	humidity_point = 70,
+	heat_point = 45,
+	humidity_point = 30,
 })
 
 -- Fangorn
@@ -111,8 +111,8 @@ minetest.register_biome({
 	name = "Fangorn",
 	node_top = "lottmapgen:fangorn_grass",
 	depth_top = 1,
-	heat_point = 40,
-	humidity_point = 70,
+	heat_point = 70,
+	humidity_point = 65,
 })
 
 -- Mirkwood
@@ -120,8 +120,8 @@ minetest.register_biome({
 	name = "Mirkwood",
 	node_top = "lottmapgen:mirkwood_grass",
 	depth_top = 1,
-	heat_point = 40,
-	humidity_point = 70,
+	heat_point = 70,
+	humidity_point = 45,
 })
 
 -- Iron Hills
@@ -129,8 +129,8 @@ minetest.register_biome({
 	name = "Iron Hills",
 	node_top = "lottmapgen:ironhill_grass",
 	depth_top = 1,
-	heat_point = 30,
-	humidity_point = 40,
+	heat_point = 70,
+	humidity_point = 55,
 })
 
 -- Rohan
@@ -139,8 +139,8 @@ minetest.register_biome({
 	node_top = "lottmapgen:rohan_grass",
 	depth_top = 1,
 	node_stone = "default:desert_stone",
-	heat_point = 40,
-	humidity_point = 50,
+	heat_point = 45,
+	humidity_point = 40,
 })
 
 -- Shire
@@ -148,6 +148,8 @@ minetest.register_biome({
 	name = "Shire",
 	node_top = "lottmapgen:shire_grass",
 	depth_top = 1,
+	heat_point = 70,
+	humidity_point = 60,
 })
 
 
